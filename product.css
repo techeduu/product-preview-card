@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:#f3eae3;
+}
+.container{
+    display:flex;
+    background-color:#fff;
+    border-radius:10px;
+    position:relative;
+    margin:50px auto;
+    width:43%;
+}
+img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.main-content{
+    padding-left:30px;
+    width:39%;
+    padding-top:40px;
+}
+h1{
+    padding-top:15px;
+    padding-bottom:18px;
+}
+.pricing{
+    padding-top:30px;
+    color:#49806b;
+}
+.customer-price{
+    display:flex;
+}
+span{
+    padding-top:40px;
+    padding-left:10px;
+    text-decoration: line-through;
+}
+.btn{
+    width:90%;
+    padding:15px;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    background-color: #49806b;
+    color:#ffffff;
+
+}
+.icon{
+    padding-right:10px;
+}
+@media screen and (min-width: 600px) {
+    .container{
+        width:43%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width:80%;
+        display:block;
+        height:auto;
+    }
+    h1{
+        width:20rem;
+        font-size:40px;
+        font-weight: bold;
+
+    }
+    p{
+        width:20rem;
+    }
+    .customer-price{
+        margin-bottom:15px;
+    }
+    .btn{
+        margin-bottom:20px;
+        width:200%;
+    }
+    img{
+        height:65vh;
+        width:100%;
+        border-top-right-radius: 10px;
+    }
+    
+}
